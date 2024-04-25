@@ -38,12 +38,20 @@ Try it out now using the [Black Playground](https://black.vercel.app). Watch the
 
 ### Installation
 
-_Black_ can be installed by running `pip install black`. It requires Python 3.8+ to run.
-If you want to format Jupyter Notebooks, install with `pip install "black[jupyter]"`.
+_Black_ can be installed using multiple methods, catering to different preferences and environments.
 
+#### Using pip
+_Black_ requires Python 3.8 or newer. You can install it directly using `pip install black`. 
+If you want to format Jupyter Notebooks, install with `pip install "black[jupyter]"`. 
+
+#### Using GitHub
 If you can't wait for the latest _hotness_ and want to install from GitHub, use:
 
 `pip install git+https://github.com/psf/black`
+
+#### Using homebrew
+If you are using macOS and prefer Homebrew, you can install _Black_ with `brew install black`.
+
 
 ### Usage
 
